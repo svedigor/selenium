@@ -23,7 +23,7 @@ public class WikipediaHomePage{
         driver.get(homePageURl);
     }
 
-    public void printContendWebElement(){
-        System.out.println(content);
+    public WebElement getContentWebElement(){
+        return content;
     }
 }
